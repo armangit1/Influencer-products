@@ -564,8 +564,20 @@ padding: 4rem 10rem;
     }
     .products-conteinar{
         grid-template-columns: repeat(3,1fr);
-        padding: 2rem 1rem;
+        padding: 2rem 0.5rem;
     
+    }
+    .products-conteinar .product h3{
+        font-size: 1.2rem ;
+        
+    }
+    .products-conteinar .product h2{
+        font-size: 1rem ;
+
+    }
+    .products-conteinar .product p{
+        font-size: 0.82rem ;
+
     }
 
     .bennar{
